@@ -1,0 +1,41 @@
+#galeria{
+    padding: 20px 20px;
+}
+.item {
+    position:relative;
+    padding-top:20px;
+    display:inline-block;
+}
+.notify-badge-rescatado{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background:darkgrey;
+    text-align: center;
+    border-radius: 4px;
+    color:white;
+    padding:5px 20px;
+    font-size:14px;
+}
+.notify-badge-disponible{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background:green;
+    text-align: center;
+    border-radius: 4px;
+    color:white;
+    padding:5px 20px;
+    font-size:14px;
+}
+.notify-badge-adoptado{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background:red;
+    text-align: center;
+    border-radius: 4px;
+    color:white;
+    padding:5px 20px;
+    font-size:14px;
+}
